@@ -28,8 +28,9 @@ Para llevar a cabo la ejecución de los cuadernos, se deben importar los conjunt
 
 El repositorio se divide en 4 cuadernos de Jupyter.
 
-* *Modelo_APT.ipynb* - se desarrolla el modelo de detección de APT, llevándose a cabo sus pruebas y su evaluación
-* *Modelo_APT_ROC-ipynb* - se calcula la curva ROC de cada clase y el área bajo la curva ROC para el modelo de detección de APT. Se dibujan todas las curvas en una misma gráfica.
-* *Modelo_Fases.ipynb* - se desarrolla el modelo de clasificación de fases APT y se realizan su evaluación y pruebas correspondientes.
-* *Modelo_Fases_ROC.ipynb* - se calcula la curva ROC de cada clase y el área bajo la curva ROC para el modelo de clasificación de fases APT. Se dibujan todas las curvas en una misma gráfica.
-* *Algoritmo_correlacion-ipynb* - se implementa un algoritmo de correlación de tráfico y se prueba sobre el conjunto de datos 
+* *Modelo_APT.ipynb* - Se desarrolla el modelo de detección de APT, llevándose a cabo sus pruebas y su evaluación
+* *Model_Search.ipynb* - Implementa el framework Model Search de Google para la búsqueda de modelos basados en redes neuronales profundas.
+* *Modelo_APT_ROC-ipynb* - Se calcula la curva ROC de cada clase y el área bajo la curva ROC para el modelo de detección de APT. Se dibujan todas las curvas en una misma gráfica.
+* *Modelo_Fases.ipynb* - Se desarrolla el modelo de clasificación de fases APT y se realizan su evaluación y pruebas correspondientes.
+* *Modelo_Fases_ROC.ipynb* - Se calcula la curva ROC de cada clase y el área bajo la curva ROC para el modelo de clasificación de fases APT. Se dibujan todas las curvas en una misma gráfica.
+* *Algoritmo_correlacion-ipynb* - Se implementa un algoritmo de correlación de tráfico y se prueba sobre el conjunto de datos 
