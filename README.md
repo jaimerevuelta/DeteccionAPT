@@ -24,7 +24,7 @@ No se requiere instalar ningún paquete o librería puesto que las máquinas vir
 
 Para llevar a cabo la ejecución de los cuadernos, se deben importar los conjuntos de datos que utilizan los modelos a un Dataframe de Pandas. En nuestro caso se han importado desde Google Drive con la herramienta PyDrive de Python.
 
-# Estructura del repositorio
+## Estructura del repositorio
 
 El repositorio se divide en 4 cuadernos de Jupyter.
 
