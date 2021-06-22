@@ -1,13 +1,13 @@
 # Diseño de un sistema de detección de APTs basado en las fases del Cyber Kill Chain
 
-## Trabajo Fin de Grado - Grado en Ingeniería de Tecnologías y Servicios de Telecomunicación
+### Trabajo Fin de Grado - Grado en Ingeniería de Tecnologías y Servicios de Telecomunicación
 
 _Jaime Revuelta Santiago_
 
 En este proyecto se diseña un sistema de detección de APT que cuenta con 2 modelos de aprendizaje automático y 1 algoritmo de correlación de tráfico. Uno de los modelos se encarga de la detección de los APT y el segundo modelo se encarga de clasificar las fases de los APT detectados por el modelo anterior. También se desarrolla un algoritmo de correlación de tráfico para identificar qué tráfico pertenece a un mismo APT, basándose en las fases APT que clasifica uno de los modelos.
 
 
-### Pre-requisitos
+## Pre-requisitos
 
 * Google Colaboratory
 * Numpy
@@ -16,15 +16,15 @@ En este proyecto se diseña un sistema de detección de APT que cuenta con 2 mod
 * Matplotlib
 * PyDrive
 
-### Instalación
+## Instalación
 
 No se requiere instalar ningún paquete o librería puesto que las máquinas virtuales de Google Colaboratory ya tienen todos las herramientas necesarias instaladas.
 
-### Ejecución
+## Ejecución
 
 Para llevar a cabo la ejecución de los cuadernos, se deben importar los conjuntos de datos que utilizan los modelos a un Dataframe de Pandas. En nuestro caso se han importado desde Google Drive con la herramienta PyDrive de Python.
 
-## Estructura del repositorio
+# Estructura del repositorio
 
 El repositorio se divide en 4 cuadernos de Jupyter.
 
